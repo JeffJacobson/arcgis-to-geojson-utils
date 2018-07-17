@@ -1,3 +1,6 @@
+# Output from npm pack
+*.tgz
+
 # Logs
 logs
 *.log
@@ -34,3 +37,10 @@ test.js
 
 # test log
 .source.**.html
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
